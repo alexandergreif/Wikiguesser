@@ -6,9 +6,9 @@
 ## goal
 
 
-# input
+## input
 
 
-# output
+## output
 
 Repo for our Game based on Wikipedia infos.
