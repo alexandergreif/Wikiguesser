@@ -1,4 +1,3 @@
-import requests
 import wikipedia
 
 # import main
@@ -8,7 +7,7 @@ import wikipedia
 def get_article():
     title = wikipedia.random()
     try:
-        summary = wikipedia.summary(title, sentences=1)
+        summary = wikipedia.summary(title, sentences=1, auto_suggest=False)
     except wikipedia.exceptions.DisambiguationError:
         summary = "No summary available."
     except wikipedia.exceptions.PageError:
