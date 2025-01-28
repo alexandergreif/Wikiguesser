@@ -1,10 +1,12 @@
+from wiki_guess_game_round_function import game_round
+
 def game(num_rounds, username1, username2):
     global score_board
     score_board = {}
     score_board[username1] = 20
     score_board[username2] = 100
-    #for num in range(1, num_round + 1):
-        #game_round(num)
+    for num in range(1, num_round + 1):
+        game_round(num)
 
     if score_board[username1] > score_board[username2]:
         print(f"The winner is {username1} with {score_board[username1]} points. Congratulations!!!")
