@@ -1,18 +1,59 @@
-from wiki_guess_game_round_function import game_round
+import statistics
+from wiki_statistics_merged import get_article
+from wiki_statistics_merged import get_statistics
 
-def game(num_rounds, username1, username2):
+def update_scoreboard(player_1_win, player1, player2):
+    if player_1_win == True:
+        score_board[player1] += 1
+    else:
+        score_board[player2] += 1
+
+
+def game(num_rounds, player1, player2):
     global score_board
     score_board = {}
-    score_board[username1] = 20
-    score_board[username2] = 100
-    for num in range(1, num_round + 1):
-        game_round(num)
+    score_board[player1] = 0
+    score_board[player2] = 0
+    for num in range(1, num_rounds + 1):
+        game_round(num, player1, player2)
 
-    if score_board[username1] > score_board[username2]:
-        print(f"The winner is {username1} with {score_board[username1]} points. Congratulations!!!")
-        print(f"{username2} scored {score_board[username2]} points. GG")
+    if score_board[player1] > score_board[player2]:
+        print(f"The winner is {player1} with {score_board[player1]} points. Congratulations!!!")
+        print(f"{player2} scored {score_board[player2]} points. GG")
     else:
-        print(f"The winner is {username2} with {score_board[username2]} points. Congratulations!!!")
-        print(f"{username1} scored {score_board[username1]} points. GG")
+        print(f"The winner is {player2} with {score_board[player2]} points. Congratulations!!!")
+        print(f"{player1} scored {score_board[player1]} points. GG")
+
+
+
+def game_round(num, player1, player2):
+    print(f"You are in round {num}")
+    title, summary, url = get_article()
+    stats = get_statistics(title)
+    page_views = stats['views']
+    print(title)
+    print(summary)
+    answer_player_1 = input(f"{player1}, how many page views do you guess for this article?")
+    answer_player_2 = input(f"{player2}, how many page views do you guess for this article?")
+    player_1_win = abs(page_views - int(answer_player_1)) <= abs(page_views - int(answer_player_2))
+    update_scoreboard(player_1_win, player1, player2)
+
+    if player_1_win == True:
+        print(f"{player1} wins")
+    else:
+        print(f"{player2} wins")
+    print(f"Actual page views: {page_views}")
+    print(score_board)
+    input("Press enter to continue")
+
+
+
+
+
+
+
+
+
+
 
 

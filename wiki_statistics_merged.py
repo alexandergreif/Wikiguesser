@@ -1,0 +1,79 @@
+import wikipedia
+import requests
+
+# Function to fetch a random Wikipedia article and its summary
+def get_article():
+    """
+    Fetch a random Wikipedia article along with its summary and URL.
+    Returns:
+        tuple: (title, summary, url)
+    """
+    title = wikipedia.random()
+    try:
+        summary = wikipedia.summary(title, sentences=1, auto_suggest=False)
+    except wikipedia.exceptions.DisambiguationError:
+        summary = "No summary available."
+    except wikipedia.exceptions.PageError:
+        return get_article()  # Retry fetching another article in case of an error
+
+    url = wikipedia.page(title).url
+    return title, summary, url
+
+# Function to fetch page views and edits statistics from Wikimedia API
+def get_statistics(title):
+    """
+    Fetch page views and edits for a given Wikipedia article title.
+    Args:
+        title (str): The title of the Wikipedia article.
+    Returns:
+        dict: A dictionary containing page views and edits.
+    """
+    print(f"Fetching statistics for article: {title}")
+
+    # Define date range for statistics (modify as needed)
+    start_date = "20240101"
+    end_date = "20250128"
+
+    # Define API endpoints
+    page_views_url = f"https://wikimedia.org/api/rest_v1/metrics/pageviews/per-article/en.wikipedia.org/all-access/all-agents/{title}/daily/{start_date}/{end_date}"
+    page_edits_url = f"https://wikimedia.org/api/rest_v1/metrics/edits/per-page/en.wikipedia.org/{title}/all-editor-types/daily/{start_date}/{end_date}"
+
+    # Define headers to simulate a browser request
+    headers = {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36",
+        "Accept": "application/json"
+    }
+
+    # Initialize results dictionary
+    results = {
+        "views": 0,
+        "edits": 0
+    }
+
+    # Fetch page views
+    response_views = requests.get(page_views_url, headers=headers)
+    if response_views.status_code == 200:
+        data_views = response_views.json()
+        results["views"] = sum(item['views'] for item in data_views['items'])
+    else:
+        print(f"Error fetching page views: {response_views.status_code}")
+
+    # Fetch page edits
+    response_edits = requests.get(page_edits_url, headers=headers)
+    if response_edits.status_code == 200:
+        data_edits = response_edits.json()
+        results["edits"] = sum(result['edits'] for item in data_edits['items'] for result in item['results'])
+    else:
+        print(f"Error fetching page edits: {response_edits.status_code}")
+
+    return results
+
+# Main function for testing
+if __name__ == "__main__":
+    article_title, article_summary, article_url = get_article()
+    print(f"Title: {article_title}")
+    print(f"Summary: {article_summary}")
+    print(f"URL: {article_url}")
+
+    stats = get_statistics(article_title)
+    print(f"Statistics: {stats}")
