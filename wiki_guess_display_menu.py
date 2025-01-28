@@ -1,4 +1,4 @@
-# pip install colorama to do before programms first execution to display messages in colour
+# pip install colorama to do before program's first execution to display messages in colour
 from colorama import Fore, Style, init
 
 # Initializes colorama for Windows compatibility
@@ -18,8 +18,8 @@ def display_menu():
     print("If you are new to Wikiguesser - just start a tutorial round to try it out!")
 
     #player setup
-    player1 = input(Fore.GREEN + "\nPlayer 1, please insert your nickname here: ")
-    player2 = input(Fore.GREEN + "Player 2, please insert your nickname here: ")
+    player1 = input(Fore.MAGENTA + "\nPlayer 1, please insert your nickname here: ")
+    player2 = input(Fore.MAGENTA + "Player 2, please insert your nickname here: ")
 
     # Setup amount of rounds
     while True:
@@ -33,7 +33,7 @@ def display_menu():
         except ValueError:
             print("Please choose a whole number as input.")
 
-    # Option to chose the tutorial before starting the battle round
+    # Option to choose the tutorial before starting the battle round
     while True:
         tutorial_choice = input(
             "Do you want to play the tutorial before starting? Enter Y for yes or N for no: ").strip().upper()
@@ -59,7 +59,7 @@ def display_menu():
     }
 
 
-# Beispiel für die Verwendung der Funktion
+# example for using the function
 if __name__ == "__main__":
     game_settings = display_menu()
     print("\nLet's go, Wikiguessers!:")
