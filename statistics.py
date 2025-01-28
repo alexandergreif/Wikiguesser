@@ -15,8 +15,6 @@ def get_article():
 
     url = wikipedia.page(title).url
     print(title)
-    print(summary)
-    print(url)
     return title, summary, url
 #
 #
