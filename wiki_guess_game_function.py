@@ -1,3 +1,5 @@
+from wiki_guess_game_round_function import game_round
+
 def game(num_rounds, username1, username2):
     global score_board
     score_board = {}
