@@ -40,8 +40,6 @@ def get_statistics(title):
     Returns:
         dict: A dictionary containing page views and edits.
     """
-    print(f"Fetching statistics for article: {title}")
-
     # Define date range for statistics (modify as needed)
     start_date = "20240101"
     end_date = "20250128"
@@ -70,13 +68,13 @@ def get_statistics(title):
     else:
         print(f"Error fetching page views: {response_views.status_code}")
 
-    # Fetch page edits
-    response_edits = requests.get(page_edits_url, headers=headers)
-    if response_edits.status_code == 200:
-        data_edits = response_edits.json()
-        results["edits"] = sum(result['edits'] for item in data_edits['items'] for result in item['results'])
-    else:
-        print(f"Error fetching page edits: {response_edits.status_code}")
+    # # Fetch page edits
+    # response_edits = requests.get(page_edits_url, headers=headers)
+    # if response_edits.status_code == 200:
+    #     data_edits = response_edits.json()
+    #     results["edits"] = sum(result['edits'] for item in data_edits['items'] for result in item['results'])
+    #
+
 
     return results
 
