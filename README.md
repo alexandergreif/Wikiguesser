@@ -21,6 +21,8 @@ Our focus was not only on coding but also on optimizing our workflow, teamwork, 
 
 🔗 **[View the Full Presentation](assets/wiki_guesser_presentation.pdf)**
 
+🔗 **[Our technical documentation](Wikiguesser_Technical_Documentation.md)**
+
 ## 🤝 How We Worked Together  
 
 ### 🔹 Open Zoom Workspace  
