@@ -16,7 +16,6 @@ def new_game():
 
 
 def quit_game():
-    """Quit the game."""
     print("\nThanks for playing Wikiguesser! Goodbye!")
     exit()
 
