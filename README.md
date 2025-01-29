@@ -6,14 +6,18 @@ Our focus was not only on coding but also on optimizing our workflow, teamwork, 
 
 ## 🎤 Program Structure  
 
-Check out our slides:  
+### 📌 project_structure – Building the Structure  
+![Slide 10](https://github.com/alexandergreif/Wikiguesser/raw/main/assets/wikguesser_pres_9.jpg)  
 
-| Slide | Description |  
-|---|---|  
-| ![Slide 10](https://github.com/alexandergreif/Wikiguesser/raw/main/wikguesser_pres_9.jpg) |  **project_structure** – Building the Structure. |  
-| ![Slide 11](https://github.com/alexandergreif/Wikiguesser/raw/main/wikguesser_pres_10.jpg) | **player_journey** - Mapping out the user experience.|  
-| ![Slide 12](https://github.com/alexandergreif/Wikiguesser/raw/main/wikguesser_pres_11.jpg) | **functionality_overview** - Program Data Flow overview
-and usage of libraries. |  
+---
+
+### 📌 player_journey – Mapping out the User Experience  
+![Slide 11](https://github.com/alexandergreif/Wikiguesser/raw/main/assets/wikguesser_pres_10.jpg)  
+
+---
+
+### 📌 functionality_overview – Program Data Flow and Usage of Libraries  
+![Slide 12](https://github.com/alexandergreif/Wikiguesser/raw/main/assets/wikguesser_pres_11.jpg)  
 
 🔗 **[View the Full Presentation](https://github.com/alexandergreif/Wikiguesser/wiki_guesser_presentation.pdf)**  
 
