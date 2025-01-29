@@ -21,18 +21,18 @@ def display_menu():
     print("If you are new to Wikiguesser - just start a tutorial round to try it out!")
 
     #player setup
-    player1 = input(Fore.MAGENTA + "\nPlayer 1, please insert your nickname here: ")
-    player2 = input(Fore.MAGENTA + "Player 2, please insert your nickname here: ")
+    player1 = input(Fore.MAGENTA + "\nPlayer 1, please insert your nickname:\n>>>> ")
+    player2 = input(Fore.MAGENTA + "Player 2, please insert your nickname:\n>>>>  ")
 
     # Setup amount of rounds
     while True:
         try:
-            num_rounds = int(input("Chose an uneven amount of rounds you want to play: "))
+            num_rounds = int(input("Chose an uneven amount of rounds you want to play:\n>>>> "))
             if num_rounds > 0 and num_rounds % 2 == 1:
                 print(f"Great! Lets play {num_rounds} rounds Wikiguesser.")
                 break
             else:
-                print("Please put in a uneven number of rounds greater than 0.")
+                print("Please put in a uneven number of rounds greater than 0.\n>>>> ")
         except ValueError:
             print("Please choose a whole number as input.")
 
