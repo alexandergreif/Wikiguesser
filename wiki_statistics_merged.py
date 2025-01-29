@@ -8,9 +8,6 @@ def get_article():
     Returns:
         tuple: (title, summary, url)
     """
-
-    #title = "long"
-
     while True:
         title = wikipedia.random()
         if "disambiguation" in title:
@@ -22,20 +19,12 @@ def get_article():
             continue
 
 
-        # except wikipedia.exceptions.DisambiguationError:
-            # summary = "No summary available."
-            # continue
-
-
-
-
     url = wikipedia.page(title).url
     return title, summary, url
 
-# Function to fetch page views and edits statistics from Wikimedia API
 def get_statistics(title):
     """
-    Fetch page views and edits for a given Wikipedia article title.
+    Fetch page views from Wikimedia API and edits for a given Wikipedia article title.
     Args:
         title (str): The title of the Wikipedia article.
     Returns:
@@ -69,17 +58,9 @@ def get_statistics(title):
     else:
         print(f"Error fetching page views: {response_views.status_code}")
 
-    # # Fetch page edits
-    # response_edits = requests.get(page_edits_url, headers=headers)
-    # if response_edits.status_code == 200:
-    #     data_edits = response_edits.json()
-    #     results["edits"] = sum(result['edits'] for item in data_edits['items'] for result in item['results'])
-    #
-
 
     return results
 
-# Main function for testing
 if __name__ == "__main__":
     article_title, article_summary, article_url = get_article()
     print(f"Title: {article_title}")
