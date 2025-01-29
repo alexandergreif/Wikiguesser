@@ -68,7 +68,7 @@ def game_round(num, player1, player2):
     print("SCOREBOARD")
     print(f"{player1}: {score_board[player1]}\n{player2}: {score_board[player2]}")
     print("_" * 39)
-    input(Fore.MAGENTA + f"Press enter to continue to round {num + 1}.\n>>>> ")
+    input(Fore.MAGENTA + f"Press enter to continue.\n>>>> ")
 
 def tutorial(num_rounds, player1, player2):
     print("You entered the tutorial mode.")
