@@ -1,10 +1,12 @@
 from wiki_guess_display_menu import display_menu
 from wiki_guess_game_function import game
 
+
 def replay_game(num_rounds, player1, player2):
     """Replay the game with the same players and rounds."""
     print("\nReplaying the game with the same players...")
     game(num_rounds, player1, player2)
+
 
 def new_game():
     """Start a new game with new players."""
@@ -12,12 +14,13 @@ def new_game():
     settings = display_menu()
     game(settings['num_rounds'], settings['player1'], settings['player2'])
 
+
 def quit_game():
     """Quit the game."""
     print("\nThanks for playing Wikiguesser! Goodbye!")
     exit()
 
-# Main function
+
 if __name__ == "__main__":
     # Display the menu and collect initial settings
     settings = display_menu()
