@@ -1,4 +1,4 @@
-[Logo](assets/wiki_guesser_logo.jpg)
+![Logo](assets/wiki_guesser_logo.jpg)
 
 
 #🚀 wiki_guesser 
