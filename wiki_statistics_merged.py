@@ -9,7 +9,7 @@ def get_article():
         tuple: (title, summary, url)
     """
 
-    title = "long"
+    #title = "long"
 
     while True:
         title = wikipedia.random()
