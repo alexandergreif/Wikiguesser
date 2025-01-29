@@ -4,7 +4,7 @@
 This repository is the result of a collaborative learning experience where we built.
 Our focus was not only on coding but also on optimizing our workflow, teamwork, and development process.  
 
-## 🎤 Program Structure  
+## 🎤 Diagrams  
 
 ### 📌 project_structure – Building the Structure  
 ![Slide 10](https://github.com/alexandergreif/Wikiguesser/raw/main/assets/wikguesser_pres_9.jpg)  
