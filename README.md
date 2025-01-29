@@ -19,7 +19,7 @@ Our focus was not only on coding but also on optimizing our workflow, teamwork, 
 ### 📌 functionality_overview – Program Data Flow and Usage of Libraries  
 ![Slide 12](https://github.com/alexandergreif/Wikiguesser/raw/main/assets/wikguesser_pres_11.jpg)  
 
-🔗 **[View the Full Presentation](https://github.com/alexandergreif/Wikiguesser/wiki_guesser_presentation.pdf)**  
+🔗 **[View the Full Presentation](https://github.com/alexandergreif/Wikiguesser/assets/wiki_guesser_presentation.pdf)**
 
 ## 🤝 How We Worked Together  
 
