@@ -65,7 +65,7 @@ def game_round(num, player1, player2):
         print(f"{player2} wins")
 
     print("_" * 39)
-    print("SCOREBOARD:")
+    print("SCOREBOARD")
     print(f"{player1}: {score_board[player1]}\n{player2}: {score_board[player2]}")
     print("_" * 39)
     input(Fore.MAGENTA + f"Press enter to continue to round {num + 1}.\n>>>> ")
