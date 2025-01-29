@@ -1,3 +1,6 @@
+![Logo](assets/wiki_guesser_logo.jpg)
+
+
 # 🚀 wiki_guesser 
 
 ## 🏗 About the Project  
