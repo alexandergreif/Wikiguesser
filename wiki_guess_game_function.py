@@ -56,16 +56,19 @@ def game_round(num, player1, player2):
     player_1_win = abs(page_views - int(answer_player_1)) <= abs(page_views - int(answer_player_2))
     update_scoreboard(player_1_win, player1, player2)
 
+    print()
+    print(Fore.WHITE + f"Actual page views: {page_views}")
+
     if player_1_win == True:
-        print()
         print(f"{player1} wins")
     else:
-        print()
         print(f"{player2} wins")
-    print(f"Actual page views: {page_views}")
-    print()
+
+    print("_" * 39)
+    print("current scores:")
     print(f"{player1}: {score_board[player1]}\n{player2}: {score_board[player2]}")
-    input("Press enter to continue.\n>>>>")
+    print("_" * 39)
+    input(Fore.MAGENTA + f"Press enter to continue to round {num + 1}.\n>>>>")
 
 def tutorial(num_rounds, player1, player2):
     print("You entered the tutorial mode.")
