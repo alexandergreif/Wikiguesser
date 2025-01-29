@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="6175db3d-e91a-4ffb-aa4e-b1b92f16ebaa" name="Changes" comment="input styling">
-      <change beforePath="$PROJECT_DIR$/wiki_guess_game_function.py" beforeDir="false" afterPath="$PROJECT_DIR$/wiki_guess_game_function.py" afterDir="false" />
+    <list default="true" id="6175db3d-e91a-4ffb-aa4e-b1b92f16ebaa" name="Changes" comment="added docstrings">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/wiki_guess_display_menu.py" beforeDir="false" afterPath="$PROJECT_DIR$/wiki_guess_display_menu.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,19 +41,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.main.executor": "Run",
-    "Python.main_new.executor": "Run",
-    "Python.wiki_guess_game_function.executor": "Run",
-    "Python.wiki_statistics_merged.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/densen/PycharmProjects/Wikiguesser_2/assets",
-    "settings.editor.selected.configurable": "preferences.keymap"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main_new.executor&quot;: &quot;Run&quot;,
+    &quot;Python.wiki_guess_game_function.executor&quot;: &quot;Run&quot;,
+    &quot;Python.wiki_statistics_merged.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/densen/PycharmProjects/Wikiguesser_2/assets&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/assets" />
@@ -209,7 +211,63 @@
       <option name="project" value="LOCAL" />
       <updated>1738164993353</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="input styling">
+      <option name="closed" value="true" />
+      <created>1738165068246</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1738165068246</updated>
+    </task>
+    <task id="LOCAL-00019" summary="input styling">
+      <option name="closed" value="true" />
+      <created>1738165104428</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1738165104428</updated>
+    </task>
+    <task id="LOCAL-00020" summary="input styling">
+      <option name="closed" value="true" />
+      <created>1738165253284</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1738165253284</updated>
+    </task>
+    <task id="LOCAL-00021" summary="next round weg">
+      <option name="closed" value="true" />
+      <created>1738168102541</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1738168102541</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Loading round">
+      <option name="closed" value="true" />
+      <created>1738172641437</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1738172641437</updated>
+    </task>
+    <task id="LOCAL-00023" summary="Loading round">
+      <option name="closed" value="true" />
+      <created>1738173042709</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1738173042709</updated>
+    </task>
+    <task id="LOCAL-00024" summary="added docstrings">
+      <option name="closed" value="true" />
+      <created>1738173188745</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1738173188745</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -241,15 +299,22 @@
     <MESSAGE value="Styling Scoreboard 2" />
     <MESSAGE value="Styling Scoreboard 2&#10;scoreboard" />
     <MESSAGE value="input styling" />
-    <option name="LAST_COMMIT_MESSAGE" value="input styling" />
+    <MESSAGE value="next round weg" />
+    <MESSAGE value="Loading round" />
+    <MESSAGE value="added docstrings" />
+    <option name="LAST_COMMIT_MESSAGE" value="added docstrings" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/wiki_guess_game_function.py</url>
-          <line>74</line>
+          <line>83</line>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/wiki_guess_game_function.py</url>
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
