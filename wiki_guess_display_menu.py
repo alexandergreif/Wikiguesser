@@ -1,14 +1,14 @@
-# pip install colorama to do before program's first execution to display messages in colour
 from colorama import Fore, Style, init
 
 import wiki_guess_game_function
 
-# Initializes colorama for Windows compatibility
 init(autoreset=True)
 
 
 def display_menu():
-  #prints info texts to screen
+    """
+    prints info texts to screen, start and end screen.
+    """
     print(Fore.MAGENTA + "\n\nWelcome to Wikiguesser!")
     print("How good do you know the interests of other Wikipedia users? Let's have a try!")
     print("Whoever estimates better, how many views a random Wikipedia page has, wins the round.")
@@ -36,25 +36,20 @@ def display_menu():
         except ValueError:
             print("Please choose a whole number as input.")
 
-    # Option to choose the tutorial before starting the battle round
     while True:
         tutorial_choice = input(
             "Do you want to play the tutorial before starting? Enter Y for yes or N for no: ").strip().upper()
         if tutorial_choice == "Y":
             wiki_guess_game_function.tutorial(num_rounds, player1, player2)
-            # print("\nThis is a placeholder for the real tutorial.Let's go to the tutorial! Try the gameplay.")
-            # to do: copy paste later the gameplay code without the part of scoring the results
 
             pass
             break
         elif tutorial_choice == "N":
             print("\nHoly! You are already a pro! Have fun with Wikiguesser!")
             break
-            # to do: input here the starting point for the real gameplay?
         else:
             print("Sorry, invalid input! Pleas chose only Y or N and confirm with enter.")
 
-    # returning the basic settings of players nicknames and amount of rounds
     return {
         "player1": player1,
         "player2": player2,
@@ -63,7 +58,6 @@ def display_menu():
     }
 
 
-# example for using the function
 if __name__ == "__main__":
     game_settings = display_menu()
     print("\nLet's go, Wikiguessers!:")

@@ -29,6 +29,7 @@ def game(num_rounds, player1, player2):
 
 
 def game_round(num, player1, player2):
+    """Execution of one round loads a fresh article and returns winner at the end"""
     print(f"Loading round {num}...")
     title, summary, url = get_article()
     stats = get_statistics(title)

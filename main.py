@@ -32,6 +32,7 @@ if __name__ == "__main__":
 
     # Loop to offer replay options
     while True:
+
         choice = input("\nChoose an option:\n1 to replay with the same players.\n2 for a new game.\n3 to quit the game.\nEnter your choice: ").strip()
         if choice in func_dict:
             func_dict[choice]()
