@@ -1,6 +1,8 @@
 import statistics
 from wiki_statistics_merged import get_article
 from wiki_statistics_merged import get_statistics
+from colorama import Fore, Style, init
+
 
 def update_scoreboard(player_1_win, player1, player2):
     if player_1_win == True:
@@ -31,17 +33,22 @@ def game_round(num, player1, player2):
     title, summary, url = get_article()
     stats = get_statistics(title)
     page_views = stats['views']
-    print(title)
-    print(summary)
+    print()
+    print("_" * 79)
+    print(f'Title: {title}')
+    print(f' Summary: {summary}')
+    print("_" * 79)
     while True:
         try:
-            answer_player_1 = int(input(f"{player1}, how many page views do you guess for this article?"))
+            print()
+            answer_player_1 = int(input(Fore.MAGENTA + f"{player1}, how many page views do you guess for this article?\n>>>>> "))
             break
         except ValueError:
             print("Put in a positive number.")
     while True:
         try:
-            answer_player_2 = int(input(f"{player2}, how many page views do you guess for this article?"))
+            print()
+            answer_player_2 = int(input(Fore.MAGENTA + f"{player2}, how many page views do you guess for this article?\n>>>>> "))
             break
         except ValueError:
             print("Put in a positive number.")
@@ -50,8 +57,10 @@ def game_round(num, player1, player2):
     update_scoreboard(player_1_win, player1, player2)
 
     if player_1_win == True:
+        print()
         print(f"{player1} wins")
     else:
+        print()
         print(f"{player2} wins")
     print(f"Actual page views: {page_views}")
     print(score_board)

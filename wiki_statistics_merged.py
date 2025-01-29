@@ -9,7 +9,7 @@ def get_article():
         tuple: (title, summary, url)
     """
 
-    # title = "Mary_Berry_(disambiguation)"
+    title = "long"
 
     while True:
         title = wikipedia.random()
@@ -19,7 +19,8 @@ def get_article():
             summary = wikipedia.summary(title, sentences=1, auto_suggest=False)
             break
         except wikipedia.exceptions.PageError:
-            return get_article()  # Retry fetching another article in case of an error
+            continue
+
 
         # except wikipedia.exceptions.DisambiguationError:
             # summary = "No summary available."
