@@ -36,7 +36,7 @@ def game_round(num, player1, player2):
     print()
     print("_" * 79)
     print(f'Title: {title}')
-    print(f' Summary: {summary}')
+    print(f'Summary: {summary}')
     print("_" * 79)
     while True:
         try:
@@ -63,8 +63,9 @@ def game_round(num, player1, player2):
         print()
         print(f"{player2} wins")
     print(f"Actual page views: {page_views}")
-    print(score_board)
-    input("Press enter to continue")
+    print()
+    print(f"{player1}: {score_board[player1]}\n{player2}: {score_board[player2]}")
+    input("Press enter to continue.\n>>>>")
 
 def tutorial(num_rounds, player1, player2):
     print("You entered the tutorial mode.")
