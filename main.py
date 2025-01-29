@@ -26,7 +26,7 @@ if __name__ == "__main__":
     settings = display_menu()
     game(settings['num_rounds'], settings['player1'], settings['player2'])
 
-    # Define the function dictionary
+    # Function dictionary to map user input
     func_dict = {
         "1": lambda: replay_game(settings['num_rounds'], settings['player1'], settings['player2']),
         "2": new_game,
