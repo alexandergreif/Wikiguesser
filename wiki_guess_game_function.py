@@ -5,6 +5,9 @@ from colorama import Fore, Style, init
 
 
 def update_scoreboard(player_1_win, player1, player2):
+    """
+    This function adds one point to the scoreboard dict for the round winner.
+    """
     if player_1_win == True:
         score_board[player1] += 1
     else:
@@ -12,6 +15,9 @@ def update_scoreboard(player_1_win, player1, player2):
 
 
 def game(num_rounds, player1, player2):
+    """
+    executes the game, a loop of rounds.
+    """
     global score_board
     score_board = {}
     score_board[player1] = 0
@@ -27,9 +33,10 @@ def game(num_rounds, player1, player2):
         print(f"{player1} scored {score_board[player1]} points. GG")
 
 
-
 def game_round(num, player1, player2):
-    """Execution of one round loads a fresh article and returns winner at the end"""
+    """
+    Execution of one round loads a fresh article and returns winner at the end
+    """
     print(f"Loading round {num}...")
     title, summary, url = get_article()
     stats = get_statistics(title)
@@ -70,6 +77,7 @@ def game_round(num, player1, player2):
     print(f"{player1}: {score_board[player1]}\n{player2}: {score_board[player2]}")
     print("_" * 39)
     input(Fore.MAGENTA + f"Press enter to continue.\n>>>> ")
+
 
 def tutorial(num_rounds, player1, player2):
     print("You entered the tutorial mode.")
