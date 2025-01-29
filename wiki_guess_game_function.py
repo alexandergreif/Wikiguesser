@@ -33,8 +33,19 @@ def game_round(num, player1, player2):
     page_views = stats['views']
     print(title)
     print(summary)
-    answer_player_1 = input(f"{player1}, how many page views do you guess for this article?")
-    answer_player_2 = input(f"{player2}, how many page views do you guess for this article?")
+    while True:
+        try:
+            answer_player_1 = int(input(f"{player1}, how many page views do you guess for this article?"))
+            break
+        except ValueError:
+            print("Put in a positive number.")
+    while True:
+        try:
+            answer_player_2 = int(input(f"{player2}, how many page views do you guess for this article?"))
+            break
+        except ValueError:
+            print("Put in a positive number.")
+
     player_1_win = abs(page_views - int(answer_player_1)) <= abs(page_views - int(answer_player_2))
     update_scoreboard(player_1_win, player1, player2)
 
