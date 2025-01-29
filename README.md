@@ -1,4 +1,7 @@
-# 🚀 wiki_guesser 
+[Logo](assets/wiki_guesser_logo.jpg)
+
+
+#🚀 wiki_guesser 
 
 ## 🏗 About the Project  
 This repository is the result of a collaborative learning experience where we built.
