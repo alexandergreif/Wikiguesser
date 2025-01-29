@@ -1,6 +1,8 @@
 # pip install colorama to do before program's first execution to display messages in colour
 from colorama import Fore, Style, init
 
+import wiki_guess_game_function
+
 # Initializes colorama for Windows compatibility
 init(autoreset=True)
 
@@ -10,7 +12,8 @@ def display_menu():
     print(Fore.MAGENTA + "\n\nWelcome to Wikiguesser!")
     print("How good do you know the interests of other Wikipedia users? Let's have a try!")
     print("Whoever estimates better, how many views a random Wikipedia page has, wins the round.")
-    print("Try to guess better than the other player and become a master Wikiguesser!\n")
+    print("Try to guess better than the other player and become a master Wikiguesser!")
+    print("If Player 2 enters the same estimation as Player 1, Player 1 will win the point.")
     print(Fore.MAGENTA + "\nSo, how do you play Wikiguesser? Here you are:\n")
     print("Chose an uneven amount of rounds you want to compete against each other.")
     print("The Players take turns giving their estimates.")
@@ -38,7 +41,8 @@ def display_menu():
         tutorial_choice = input(
             "Do you want to play the tutorial before starting? Enter Y for yes or N for no: ").strip().upper()
         if tutorial_choice == "Y":
-            print("\nThis is a placeholder for the real tutorial.Let's go to the tutorial! Try the gameplay.")
+            wiki_guess_game_function.tutorial(num_rounds, player1, player2)
+            # print("\nThis is a placeholder for the real tutorial.Let's go to the tutorial! Try the gameplay.")
             # to do: copy paste later the gameplay code without the part of scoring the results
 
             pass

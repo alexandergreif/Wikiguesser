@@ -46,6 +46,10 @@ def game_round(num, player1, player2):
     print(score_board)
     input("Press enter to continue")
 
+def tutorial(num_rounds, player1, player2):
+    print("You entered the tutorial mode.")
+    game(num_rounds, player1, player2)
+    print(f"You finished the tutorial mode.\n\n --- Game Starting ---")
 
 
 
