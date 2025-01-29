@@ -29,7 +29,7 @@ def game(num_rounds, player1, player2):
 
 
 def game_round(num, player1, player2):
-    print(f"You are in round {num}")
+    print(f"Loading round {num}...")
     title, summary, url = get_article()
     stats = get_statistics(title)
     page_views = stats['views']
