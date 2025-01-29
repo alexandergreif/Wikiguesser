@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="6175db3d-e91a-4ffb-aa4e-b1b92f16ebaa" name="Changes" comment="input styling">
+      <change beforePath="$PROJECT_DIR$/wiki_guess_game_function.py" beforeDir="false" afterPath="$PROJECT_DIR$/wiki_guess_game_function.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="PUSH_AUTO_UPDATE" value="true" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;densenden&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/alexandergreif/Wikiguesser&quot;,
+    &quot;accountId&quot;: &quot;24fb8cdf-10e8-47bc-b218-55fd4269a3e7&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="2sICeZTnsHyk2twG7mKSREopZtA" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.main.executor": "Run",
+    "Python.main_new.executor": "Run",
+    "Python.wiki_guess_game_function.executor": "Run",
+    "Python.wiki_statistics_merged.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/Users/densen/PycharmProjects/Wikiguesser_2/assets",
+    "settings.editor.selected.configurable": "preferences.keymap"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/assets" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-fb887030ada0-aa17d162503b-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-243.21565.199" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="6175db3d-e91a-4ffb-aa4e-b1b92f16ebaa" name="Changes" comment="" />
+      <created>1738133797442</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1738133797442</updated>
+    </task>
+    <task id="LOCAL-00001" summary="added content from presentation">
+      <option name="closed" value="true" />
+      <created>1738134214459</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1738134214459</updated>
+    </task>
+    <task id="LOCAL-00002" summary="image upload">
+      <option name="closed" value="true" />
+      <created>1738135203499</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1738135203499</updated>
+    </task>
+    <task id="LOCAL-00003" summary="image integration">
+      <option name="closed" value="true" />
+      <created>1738135284192</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1738135284192</updated>
+    </task>
+    <task id="LOCAL-00004" summary="typo">
+      <option name="closed" value="true" />
+      <created>1738135500247</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1738135500247</updated>
+    </task>
+    <task id="LOCAL-00005" summary="image updates">
+      <option name="closed" value="true" />
+      <created>1738135521048</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1738135521048</updated>
+    </task>
+    <task id="LOCAL-00006" summary="current file state for download in readme">
+      <option name="closed" value="true" />
+      <created>1738135546101</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1738135546101</updated>
+    </task>
+    <task id="LOCAL-00007" summary="image crop">
+      <option name="closed" value="true" />
+      <created>1738135822462</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1738135822462</updated>
+    </task>
+    <task id="LOCAL-00008" summary="new pdf version &quot;WED&quot;">
+      <option name="closed" value="true" />
+      <created>1738136190001</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1738136190001</updated>
+    </task>
+    <task id="LOCAL-00009" summary="filter out disambiguation.">
+      <option name="closed" value="true" />
+      <created>1738141638976</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1738141638976</updated>
+    </task>
+    <task id="LOCAL-00010" summary="tutroial added">
+      <option name="closed" value="true" />
+      <created>1738144437661</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1738144437661</updated>
+    </task>
+    <task id="LOCAL-00011" summary="md">
+      <option name="closed" value="true" />
+      <created>1738144470010</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1738144470010</updated>
+    </task>
+    <task id="LOCAL-00012" summary="logo upload">
+      <option name="closed" value="true" />
+      <created>1738145270484</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1738145270484</updated>
+    </task>
+    <task id="LOCAL-00013" summary="presentation test ride">
+      <option name="closed" value="true" />
+      <created>1738158308291</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1738158308292</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Styling Scoreboard 1">
+      <option name="closed" value="true" />
+      <created>1738164434393</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1738164434393</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Styling Scoreboard 2">
+      <option name="closed" value="true" />
+      <created>1738164854111</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1738164854111</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Styling Scoreboard 2&#10;scoreboard">
+      <option name="closed" value="true" />
+      <created>1738164897953</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1738164897953</updated>
+    </task>
+    <task id="LOCAL-00017" summary="input styling">
+      <option name="closed" value="true" />
+      <created>1738164993353</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1738164993353</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="added content from presentation" />
+    <MESSAGE value="image upload" />
+    <MESSAGE value="image integration" />
+    <MESSAGE value="typo" />
+    <MESSAGE value="image updates" />
+    <MESSAGE value="current file state for download in readme" />
+    <MESSAGE value="image crop" />
+    <MESSAGE value="new pdf version &quot;WED&quot;" />
+    <MESSAGE value="filter out disambiguation." />
+    <MESSAGE value="tutroial added" />
+    <MESSAGE value="md" />
+    <MESSAGE value="logo upload" />
+    <MESSAGE value="presentation test ride" />
+    <MESSAGE value="Styling Scoreboard 1" />
+    <MESSAGE value="Styling Scoreboard 2" />
+    <MESSAGE value="Styling Scoreboard 2&#10;scoreboard" />
+    <MESSAGE value="input styling" />
+    <option name="LAST_COMMIT_MESSAGE" value="input styling" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/wiki_guess_game_function.py</url>
+          <line>74</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
