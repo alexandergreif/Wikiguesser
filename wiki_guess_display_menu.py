@@ -7,7 +7,7 @@ init(autoreset=True)
 
 def display_menu():
     """
-    prints info texts to screen, start and end screen.
+    prints info texts to start and end screen, and between rounds.
     """
     print(Fore.MAGENTA + "\n\nWelcome to Wikiguesser!")
     print("How good do you know the interests of other Wikipedia users? Let's have a try!")
