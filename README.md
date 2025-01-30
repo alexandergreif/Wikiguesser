@@ -4,7 +4,7 @@
 # 🚀 wiki_guesser 
 
 ## 🏗 About the Project  
-This repository is the result of a collaborative learning experience where we built.
+This repository is the result of a collaborative learning experience where we built a game in python.
 Our focus was not only on coding but also on optimizing our workflow, teamwork, and development process.  
 
 ## 🗒️ Diagrams  
