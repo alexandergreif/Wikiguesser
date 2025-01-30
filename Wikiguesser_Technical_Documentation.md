@@ -129,7 +129,7 @@ wikiguesser/
 ### **Start the Game**
 1. Clone the repository:
    ```sh
-   git clone <repository-url>
+   git clone https://github.com/alexandergreif/Wikiguesser
    cd wikiguesser
    ```
 2. Run the game:
